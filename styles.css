@@ -1,0 +1,60 @@
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#navbar {
+  background-color: #333;
+  position: sticky;
+  top: 0;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+#navbar li {
+  margin: 0 20px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+#welcome-section {
+  height: 100vh; 
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#projects {
+  padding: 20px;
+}
+
+.project-tile {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 40vh;
+  padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+}
